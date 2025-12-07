@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#2563eb" />
+  <title>Portfolio — Siti Fatimah</title>
+
+  <link rel="stylesheet" href="Week11.css" />
+</head>
+
+<body>
+  <header class="site-header" role="banner">
+    <div class="container nav-wrap">
+      <a href="#home" class="brand">SITI FATIMAH</a>
+
+      <nav class="nav" aria-label="Navigasi utama">
+        <a href="#home">Beranda</a>
+        <a href="#about">Tentang</a>
+        <a href="#portfolio">Pengalaman</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+
+      <button class="nav-toggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero" aria-label="Hero">
+      <div class="container hero-inner">
+        <h1> Selamat Datang, ayo kenalan!</h1>
+        <p>Ini Jejak Seru, yang berisi pengalaman organisasi, dan kegiatan yang bikin aku nggak cuma jadi tukang rebahan.</p>
+        <div class="hero-actions">
+          <a href="#portfolio" class="btn btn-primary">Lihat Pengalaman</a>
+          <a href="#contact" class="btn btn-outline">Hubungi Saya</a>
+        </div>
+      </div>
+    </section>
+
+    
+<section id="about" class="section" aria-labelledby="title-about">
+  <div class="container">
+    <h2 id="title-about">Tentang Saya</h2>
+    <div class="bio">
+      <p><strong>Nama:</strong> Siti Fatimah</p>
+      <p><strong>Domisili:</strong>  Petung, Penajam Paser Utara</p>
+      <p><strong>Pendidikan:</strong> Mahasiswa Aktif Program Studi Sistem Informasi</p>
+      <p><strong>Minat:</strong> Data analays (Kayanya) & Project Managemen</p>
+    </div>
+
+    <p>Mahasiswa Aktif Program Studi Sistem Informasi di Institut Teknologi Kalimantan,dengan kepribadian INTP-T yang dikenal sebagai pemikir logis, analitis, dan konseptual, saya memiliki ketertarikan yang kuat untuk mengeksplorasi pengetahuan dan memahami hal-hal secara mendalam. Sehingga mendorong saya untuk terus belajar, mengamati, dan memahami sesuatu, sehingga menjadi kekuatan saya dalam menapaki dunia akademik dan pengembangan diri.</p>
+    <ul class="feature-list" aria-label="Keunggulan & fokus">
+      <li>
+        <span class="icon" aria-hidden="true">🎓</span>
+        <div>
+          <strong>Mahasiswi</strong> — berpengalaman pada proyek tugas besar, riset kecil, dan lomba internal program studi.
+        </div>
+      </li>
+      <li>
+        <span class="icon" aria-hidden="true">🤝</span>
+        <div>
+          <strong>Organisasi & Kepanitiaan</strong> — koordinasi tim, komunikasi, dan eksekusi program kerja.
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <section id="portfolio" class="section" aria-labelledby="title-portfolio">
+      <div class="container">
+        <div class="section-head">
+          <h2 id="title-portfolio">Pengalaman Semasa Kuliah</h2>
+          <p>Filter berdasarkan kategori untuk melihat ringkasan pengalaman saya.</p>
+        </div>
+
+        <div class="filters" role="group" aria-label="Filter kategori">
+          <button class="filter-btn active" data-filter="all" aria-pressed="true">Semua</button>
+          <button class="filter-btn" data-filter="organisasi" aria-pressed="false">Organisasi</button>
+          <button class="filter-btn" data-filter="kepanitiaan" aria-pressed="false">Kepanitiaan</button>
+          <button class="filter-btn" data-filter="pelatihan" aria-pressed="false">Pelatihan</button>
+          <button class="filter-btn" data-filter="kegiatan" aria-pressed="false">Kegiatan</button>
+        </div>
+
+        <div class="grid">
+          <article class="card" data-category="organisasi">
+            <img src="DSC09427.jpg" alt="Ilustrasi kegiatan organisasi" />
+            <div class="card-body">
+              <h3>Himpunan Mahasiswa Sistem Informasi — Departemen SRD</h3>
+              <p>Mengembangkan potensi melalui pelatihan, mentoring, dan pengelolaan sumber daya manusia. Berperan dalam membangun budaya organisasi yang solid dan mendukung kolaborasi antar divisi.</p>
+              <div class="tags">
+                <span class="tag">Regeneration</span><spanclass="tag">Kolaborasi</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-category="kepanitiaan">
+            <img src="IN2025.jpg" alt="Ilustrasi event INSPACE 2025" />
+            <div class="card-body">
+              <h3>INSPACE 2025</h3>
+              <p>Divisi Acara sub divisi OPCLO bertanggung jawab dalam merancang dan menyiapkan rangkaian pembukaan serta penutupan acara. Memastikan setiap momen berjalan lancar dan memberikan kesan yang berkesan bagi seluruh peserta.”</p>
+              <div class="tags">
+                <span class="tag">Event</span><span class="tag">OPCLO</span> 
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-category="kepanitiaan">
+            <img src="IN 2026.jpg" alt="Ilustrasi event INSPACE 2026" />
+            <div class="card-body">
+              <h3>INSPACE 2026</h3>
+              <p>Divisi Acara bertanggung jawab dalam merancang dan menyiapkan rangkaian pembukaan serta penutupan acara. Memastikan setiap momen berjalan lancar dan memberikan kesan yang berkesan bagi seluruh peserta.”.</p>
+              <div class="tags">
+                <span class="tag">Event</span><span class="tag">OPCLO</span> 
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-category="kepanitiaan">
+            <img src="KPU 25.jpg" alt="Ilustrasi event KPU 2025" />
+            <div class="card-body">
+              <h3>KPU 2025</h3>
+              <p>Bertugas di Sub Divisi Debat Panelis dengan fokus pada persiapan dan pelaksanaan sesi debat. Berkontribusi dalam memastikan kelancaran diskusi panel serta mengikuti seluruh rangkaian kegiatan KPU 2025.</p>
+              <div class="tags">
+                <span class="tag">Debat Panelis</span><span class="tag">Pemilu</span><span class="tag">Sertijab</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-category="kepanitiaan">
+            <img src="KPU 26.jpg" alt="Ilustrasi event KPU 2026" />
+            <div class="card-body">
+              <h3>KPU 2026</h3>
+              <p>Sebagai Ketua KPU 2026, memimpin seluruh rangkaian kegiatan pemilihan dengan mengoordinasikan tim, memastikan kelancaran proses, serta menjaga transparansi dan integritas acara. Berhasil menyelenggarakan pemilihan dengan partisipasi aktif seluruh anggota</p>
+              <div class="tags">
+                <span class="tag">Debat Panelis</span><span class="tag">Pemilu</span><span class="tag">Sertijab</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-category="pelatihan">
+            <img src="TD.jpg" alt="Ilustrasi pelatihan LKMM-TD" />
+            <div class="card-body">
+              <h3>LKMM - TD</h3>
+              <p>Pelatihan kepemimpinan dan manajemen organisasi tingkat dasar untuk pengembangan soft skills.</p>
+              <div class="tags">
+                <span class="tag">Leadership</span><span class="tag">Manajemen</span><span class="tag">Soft Skills</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-category="pelatihan">
+            <img src="PP.jpg" alt="Ilustrasi pelatihan PP LKMM" />
+            <div class="card-body">
+              <h3>PP LKMM</h3>
+              <p>Pelatihan pengembangan diri dan public speaking untuk meningkatkan kemampuan presentasi.</p>
+              <div class="tags">
+                <span class="tag">Public Speaking</span><span class="tag">Pengembangan Diri</span><span class="tag">Presentasi</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-category="kegiatan">
+            <img src="SOSIALISASI.jpg" alt="Ilustrasi sosialisasi" />
+            <div class="card-body">
+              <h3>Sosialisasi</h3>
+              <p>Kegiatan sosialisasi dan penyuluhan kepada masyarakat tentang pentingnya teknologi informasi.</p>
+              <div class="tags">
+                <span class="tag">Volunteer</span><span class="tag">Edukasi</span><span class="tag">Sosialisasi</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="card" data-category="kegiatan">
+            <img src="ITK SPIRIT.jpg" alt="Ilustrasi ITK SPIRIT 2025" />
+            <div class="card-body">
+              <h3>PJ Sekolah - ITK SPIRIT 2025</h3>
+              <p>Penanggung jawab kegiatan sekolah dalam acara ITK SPIRIT 2025 yang melibatkan ratusan peserta.</p>
+              <div class="tags">
+              <span class="tag">Koordinator</span><span class="tag">Sekolah</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section" aria-labelledby="title-contact">
+      <div class="container">
+        <h2 id="title-contact">Kontak</h2>
+        <form class="contact-form" novalidate>
+          <div class="form-grid">
+            <div class="form-field">
+              <label for="name">Nama</label>
+              <input type="text" id="name" name="name" placeholder="Nama lengkap" required>
+            </div>
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="nama@domain.com" required>
+            </div>
+            <div class="form-field full">
+              <label for="message">Pesan</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tulis pesan Anda..." required></textarea>
+            </div>
+          </div>
+          <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Kirim</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" aria-label="Footer">
+    <div class="container footer-grid">
+      <div>
+        <p>© 2025. Siti Fatimah punya.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const btn = document.querySelector('.nav-toggle');
+    const nav = document.querySelector('.nav');
+    btn?.addEventListener('click', () => {
+      const open = nav.classList.toggle('nav--open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+
+    const filterBtns = document.querySelectorAll('.filter-btn');
+    const cards = document.querySelectorAll('.card');
+
+    filterBtns.forEach(btn => {
+      btn.addEventListener('click', () => {
+        filterBtns.forEach(b => { 
+          b.classList.remove('active'); 
+          b.setAttribute('aria-pressed', 'false'); 
+        });
+        btn.classList.add('active');
+        btn.setAttribute('aria-pressed', 'true');
+
+        const filter = btn.getAttribute('data-filter');
+        cards.forEach(card => {
+          const cat = card.getAttribute('data-category');
+          const show = (filter === 'all' || cat === filter);
+          card.style.display = show ? '' : 'none';
+        });
+      });
+    });
+
+    const form = document.querySelector('.contact-form');
+    form?.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const name = document.getElementById('name');
+      const email = document.getElementById('email');
+      const message = document.getElementById('message');
+
+      const errors = [];
+      if (!name.value.trim()) errors.push('Nama wajib diisi.');
+      if (!email.value.trim() || !/^\S+@\S+\.\S+$/.test(email.value)) errors.push('Email tidak valid.');
+      if (!message.value.trim()) errors.push('Pesan wajib diisi.');
+
+      if (errors.length){
+        alert(errors.join('\n'));
+        return;
+      }
+      alert('Terima kasih! Pesan kamu sudah terkirim.');
+      form.reset();
+    });
+  </script>
+</body>
+</html>
